@@ -1,5 +1,5 @@
 ARG GO_VERSION=1.17.8
-ARG TARGET=alpine:3.9
+ARG TARGET=alpine:3.16
 
 FROM golang:${GO_VERSION}-alpine AS builder
 
